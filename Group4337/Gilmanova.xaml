@@ -21,11 +21,6 @@
                        Margin="10"
                        TextWrapping="Wrap"
                        Text="Гильманова Азиза" />
-            <TextBlock Text="Возраст: 18" 
-                       FontSize="16" 
-                       HorizontalAlignment="Center"
-                       Margin="10"
-                       TextWrapping="Wrap"/>
         </StackPanel>
     </Grid>
 </Window>
