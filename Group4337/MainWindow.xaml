@@ -23,35 +23,38 @@
 
             <Grid Grid.Row="1">
                 <Grid.RowDefinitions>
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
 
                 <Button Grid.Row="7" 
                         Content="Информация об авторе" 
                         Click="ShowInfo_Click"
+                        Width="200" 
+                        Height="40"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"/>
+
+                <Button Grid.Row="8" 
+                        Content="Импорт данных" 
+                        Click="ImportData_Click"
+                        Width="200" 
+                        Height="40"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"/>
+
+                <Button Grid.Row="9" 
+                        Content="Экспорт в Excel" 
+                        Click="ExportData_Click"
                         Width="200" 
                         Height="40"
                         HorizontalAlignment="Center"
