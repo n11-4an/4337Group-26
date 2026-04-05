@@ -6,5 +6,10 @@ namespace Group4337
     {
         public MainWindow()
             => InitializeComponent();
+
+        private void ShowInfo_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

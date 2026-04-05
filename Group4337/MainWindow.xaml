@@ -31,7 +31,7 @@
                     <RowDefinition />
                     <RowDefinition />
                     <RowDefinition />
-                    <!-- ЭТО 8-я строка (Row 7, так как счет с 0) -->
+                    <!-- ЭТО 8-я строка -->
                     <RowDefinition />
                     <RowDefinition />
                     <RowDefinition />
@@ -50,7 +50,6 @@
                     <RowDefinition />
                 </Grid.RowDefinitions>
 
-                <!-- КНОПКА в 8-й строке (Row = 7, потому что счет с 0) -->
                 <Button Grid.Row="7" 
                         Content="Информация об авторе" 
                         Click="ShowInfo_Click"
